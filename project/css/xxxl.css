@@ -1,0 +1,144 @@
+
+
+
+
+
+
+.banner {
+    width: 100%;
+    height: 60px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.menu1 {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: 30px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-and-search {
+    display: flex;
+    height: 100%;
+}
+
+
+.search-bar {
+    height: 100%;
+}
+.search-bar form {
+    height: 100%;
+    width: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar form label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+
+.search-bar form input {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #f2f2f2;
+    border: none;
+    width: 100%;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.search-bar form img {
+    display: none;
+}
+
+
+
+.login {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.login .login-btn {
+    height: 100%;
+    border: 1px solid #e0e0e2;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 12px;
+    gap: 5px;
+}
+
+.login .login-btn a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.login .login-btn a:last-child {
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+.login span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #e0e0e2;
+}
+
+.login>.box {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
